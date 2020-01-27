@@ -11,6 +11,16 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery
+//= require jquery_ujs
+//= require bootstrap
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require moment
+//= require bootstrap-datetimepicker
+//= require fullcalendar
+
+// $(document).on("focus", "[data-behaviour~='datepicker']", function(e){
+//     $(this).datetimepicker({"format": "yyyy-mm-dd"})
+// });
